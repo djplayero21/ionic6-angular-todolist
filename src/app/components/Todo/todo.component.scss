@@ -1,0 +1,117 @@
+  $red: #ea5353;
+  $cyan: #45d3d3;
+  $orange: #fcaf4a;
+  $blue: #549ef2;
+  $varyDarkBlue: #4c4e61;
+  $grayishBlue: #a3a5ae;
+  $veryLightGray: #fafafa;
+  $weight1: 200;
+  $weight2: 400;
+  $weight3: 600;
+:root{
+  --gradient-start: #D279EE;
+  --gradient-start-text: '#D279EE';
+  --gradient-end: #F8C390;
+  --gradient-end-text: '#F8C390';
+}
+
+.MainContainer {   
+  --ion-background-color:#6a93cb;
+  --ion-background-image:linear-gradient(315deg, #6a93cb 0%, #a4bfef 74%);
+
+}
+
+.CardTodoListCategory {
+  height: 70vh !important;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.not-allowed {cursor: not-allowed;}
+.pointer {cursor: pointer !important;}
+
+.TodoListItem {
+    border-radius: .8rem;
+  --ion-item-background:#2b4162;
+  --ion-item-background-image: linear-gradient(315deg, #2b4162 0%, #12100e 74%);
+
+}
+
+
+
+.TodoItem {
+  padding: 5px;
+  border-radius: .5rem; 
+  cursor: pointer !important;
+}
+
+.card-title {
+  font-size: clamp(1rem , 1.2vw , 1.7rem);
+  font-weight: 600;
+}
+
+.icon2r {font-size: 2rem;}
+
+.icon-add-todo {
+  color: #FAF8F9;
+}
+
+.icon-add-todo:hover {
+  color: #41C7AF;
+  cursor: pointer;
+}
+.blue {
+  border-top: 5px solid $blue;
+}
+
+.card-item {
+  text-align: center;
+  padding: 5px;
+}
+
+.NotBorder {
+  padding-top: 5px;
+  border-top: 5px solid $veryLightGray !important;
+}
+
+.Baja {
+  padding-top: 5px;
+  border-top: 5px solid $cyan;
+  border-bottom: 5px solid $cyan;
+}
+
+.Media {
+  padding-top: 5px;
+  border-top: 5px solid $orange !important;
+  border-bottom: 5px solid $orange;
+}
+
+.Alta {
+  padding-top: 5px;
+  border-top: 5px solid $red;
+  border-bottom: 5px solid $red;
+}
+
+
+cdk-virtual-scroll-viewport {
+  height: 85%;
+  width: 100%;
+}
+.modal_info {
+  background: #FCF9F2 !important;
+  padding: 50px 100px;
+  text-align: center;
+}
+
+
+
+  .ion-card {
+      display: flex;
+      flex-direction: column;
+      width: 100% !important;
+      max-width : 100% !important;
+      margin: 0 !important;
+  }
+
+  
